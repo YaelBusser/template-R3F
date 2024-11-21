@@ -7,7 +7,7 @@ git rm -r --cached .
 ```
 
 2. GLTFJSX
-Create tsx model and generate a new model for web
+Create tsx model
 ```bash
-npx gltfjsx model.glb -t -T
+npx gltfjsx model.glb -t
 ```
