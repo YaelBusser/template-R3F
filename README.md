@@ -1,7 +1,13 @@
 # Template React-Three-fiber project
-
-## Git ignore
+## Commands
+1. Git ignore
 Command clear cache : 
 ```bash
 git rm -r --cached .
+```
+
+2. GLTFJSX
+Create tsx model and generate a new model for web
+```bash
+npx gltfjsx model.glb -t -T
 ```
