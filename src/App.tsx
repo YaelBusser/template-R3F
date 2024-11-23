@@ -7,8 +7,8 @@ function App() {
         <Canvas camera={{
             position: [3, 3, 3]
         }}>
+	    <OrbitControls/>
             <mesh>
-                <OrbitControls/>
                 <boxGeometry/>
                 <meshNormalMaterial/>
             </mesh>
